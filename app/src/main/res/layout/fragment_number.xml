@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android_hw1.NumberFragment">
+
+    <TextView
+        android:id="@+id/number"
+        android:minHeight="48dp"
+        android:minWidth="48dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/back_button"
+        android:gravity="center"
+        android:textSize="100sp"
+        android:textStyle="bold" />
+
+
+
+    <Button
+        android:id="@+id/back_button"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/back_button" />
+
+</RelativeLayout>
